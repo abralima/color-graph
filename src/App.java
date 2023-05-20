@@ -57,6 +57,7 @@ public class App {
             for (int k = 0; k < colorAvailability.length; k++) {
                 if (colorAvailability[k]) {
                     vertices.get(i).setCor(k);
+                    break;
                 }
             }
             colorAvailability = new boolean[] { true, true, true, true };
